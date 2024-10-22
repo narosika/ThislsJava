@@ -1,4 +1,4 @@
-package JhStude.EX.sec06;
+package JhStude.EX.sec06.october10;
 
 import java.util.Scanner;
 
