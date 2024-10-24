@@ -23,6 +23,7 @@ public class ThreadNameExample {
 		};
 		chatThread.setName("chat-thread");
 		chatThread.start();
+		
 	}
 }
 
