@@ -50,6 +50,20 @@ public class TreeMapExample {
 		for(Entry<String, Integer> e : rangeMap.entrySet()) {
 			System.out.println(e.getKey() + "-" + e.getValue());
 		}
+		System.out.println();
+		//범위 검색
+		System.out.println("[c보다 낮은 단어를 검색]");
+		NavigableMap<String,Integer> eMap = treeMap.headMap("c", true);
+		for(Entry<String, Integer> e : eMap.entrySet()) {
+			System.out.println(e.getKey() + "-" + e.getValue());
+		}
+		System.out.println();
+		//범위 검색
+		System.out.println("[e보다 높은 단어를 검색]");
+		NavigableMap<String,Integer> hMap = treeMap.tailMap("e", true);
+		for(Entry<String, Integer> e : hMap.entrySet()) {
+			System.out.println(e.getKey() + "-" + e.getValue());
+		}
 	}
 }
 

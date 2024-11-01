@@ -23,7 +23,7 @@ public class HashMapExample {
 		String key = "홍길동";
 		int value = map.get(key);
 		System.out.println(value);
-		System.out.println(key + ": " + map.get("홍길동"));
+		System.out.println(key + ": " + map.get(key));
 		System.out.println();
 
 		// 키 Set 컬렉션을 얻고, 반복해서 값 얻기
@@ -31,7 +31,7 @@ public class HashMapExample {
 		Iterator<String> keyIterator = keySet.iterator();
 		while (keyIterator.hasNext()) {
 			String k = keyIterator.next();
-			Integer v = map.get(key);
+			Integer v = map.get(k);
 			System.out.println(k + " : " + v);
 		}
 		System.out.println();
