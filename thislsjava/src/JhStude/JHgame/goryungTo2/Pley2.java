@@ -29,7 +29,8 @@ public class Pley2 {
 		cardSet.put(8, "하양");
 		cardSet.put(9, "검정");
 
-		
+		System.out.println(cardSet.values());
+		/* 
 		//내가 가지고 있는 수 알려주기
 		Set<Integer> pleyerSet = cardSet.keySet();
 		Stream<Integer> pleyerSet1 = pleyerSet.stream();
@@ -43,7 +44,7 @@ public class Pley2 {
 				cpuSet.stream()
 				.forEach( n -> System.out.print(n.getValue()));
 				System.out.println();
-				
+				 */
 		
 		/*
 		//어레이리스트에 맵컬렉션 담아보기
@@ -62,9 +63,9 @@ public class Pley2 {
 		System.out.println(mt);
 		*/
 				
-		
+		/*
 		cpuCho();
-		
+		 */
 		
 		
 		sc.close();
